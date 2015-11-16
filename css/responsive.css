@@ -3,12 +3,12 @@ AVERAGE SMARTPHONE - TWO COLUMN LAYOUT
 *********************/
 
 @media screen and (min-width: 480px) {
-  #primary {
+  .primary {
     width:50%;
     float:left;
   }
   
-  #secondary {
+  .secondary {
     width:40%;
     float:right;
   }
@@ -39,8 +39,9 @@ PAGE: ABOUT
 *********************/
 
 .profile-photo {
-  float:left;
-  margin:0 5% 500px 0;
+  display:block;
+  clear:both;
+  margin:0 5% 50px 0;
   
 }
 

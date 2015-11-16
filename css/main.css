@@ -126,6 +126,11 @@ PAGE: PORTFOLIO
   text-align:center;
 }
 
+#gallery img {
+  width:100%;
+  height:220px;
+}
+
 /*********************
 PAGE: ABOUT
 *********************/
@@ -175,8 +180,8 @@ COLORS
 
 /* site body */
 body {
-  background-color:#fff;
-  color:#999;
+  background-image:url('../img/ground_02.jpg');
+  color:#F8F8FF;
 }
 
 /* green header */
@@ -192,7 +197,7 @@ nav {
   
 /* logo text */
 h1, h2 {
-  color:#fff;
+  color:#F8F8FF;
 }
 
 /* links */
